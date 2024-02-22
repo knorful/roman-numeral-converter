@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container {
+  border: 2px solid gray;
+  padding: 10px;
+}
+
+#heading {
+}
+
+#content {
+}
+
+#content h3 {
+  text-align: center;
+  margin: 7px;
+}
+
+#number {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 7px;
+  width: 75%;
+}
+
+#convert-btn {
+  padding: 7px;
+  border-radius: 4px;
+}
+
+#output {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
